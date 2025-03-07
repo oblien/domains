@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "description": "Open Source Domain Register & Manager with the lowest cost domains directly from DNS providers",
+  "packageManager": "npm@8.5.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "check-types": "tsc --noEmit",
     "build:docker": "docker build -t oblien-domains .",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
@@ -20,7 +22,6 @@
     "clsx": "^2.0.0",
     "date-fns": "^2.30.0",
     "fastify": "^4.24.3",
-    "lucide-react": "^0.292.0",
     "next": "^15.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -44,6 +45,7 @@
     "prettier": "^3.1.0",
     "prisma": "^5.5.2",
     "tailwindcss": "^3.3.5",
+    "turbo": "^2.4.4",
     "typescript": "^5.2.2"
   },
   "engines": {
@@ -74,4 +76,4 @@
       "prettier --write"
     ]
   }
-} 
+}

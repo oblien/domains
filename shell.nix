@@ -4,9 +4,6 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     nodejs_22
 
-    # Node Package manager
-    npm
-
     # dev tools
     typescript
     turbo
