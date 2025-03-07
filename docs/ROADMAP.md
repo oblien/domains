@@ -2,13 +2,13 @@
 
 This document outlines the development roadmap for Oblien Domains, an enterprise-grade open-source domain registration and management platform focused on providing the lowest cost domains directly from DNS providers, with primary integration with OpenSRS.
 
-## Phase 1: Foundation (Months 1-2)
+## Phase 1: Foundation
 
 ### Infrastructure Setup
 - [x] Repository setup
 - [ ] Kubernetes cluster configuration
-- [ ] CI/CD pipeline with GitHub Actions and ArgoCD
-- [ ] Monitoring stack (Prometheus, Grafana, ELK)
+- [ ] CI/CD pipeline with GitHub Actions
+- [ ] Monitoring
 - [ ] Development environment with Docker Compose
 
 ### Core Architecture
@@ -16,16 +16,13 @@ This document outlines the development roadmap for Oblien Domains, an enterprise
 - [ ] Event-driven communication with Kafka
 - [ ] Authentication system with Keycloak
 - [ ] OpenSRS integration architecture
-- [ ] Database schema design with Prisma
+- [ ] Database schema design with custom SQL
 
 ### Frontend Foundation
-- [ ] Next.js application with App Router
+- [ ] Next.js application with App Router and React Compiler
 - [ ] Design system with Tailwind and shadcn/ui
-- [ ] Component library with Storybook
-- [ ] State management with TanStack Query and Zustand
-- [ ] Type-safe API integration with tRPC
 
-## Phase 2: MVP Development (Months 3-5)
+## Phase 2: MVP Development
 
 ### Domain Search & Registration
 - [ ] Domain search interface with real-time validation
@@ -46,7 +43,6 @@ This document outlines the development roadmap for Oblien Domains, an enterprise
 - [ ] Invoice generation
 - [ ] Payment history
 - [ ] Subscription management
-- [ ] Cryptocurrency payment options (Bitcoin, Ethereum)
 
 ### Basic Domain Management
 - [ ] Domain dashboard with real-time status
@@ -55,7 +51,7 @@ This document outlines the development roadmap for Oblien Domains, an enterprise
 - [ ] Domain renewal automation
 - [ ] Email notifications for domain events
 
-## Phase 3: Enhanced Features (Months 6-8)
+## Phase 3: Enhanced Features
 
 ### Advanced DNS Management
 - [ ] DNS record management with validation
@@ -79,13 +75,12 @@ This document outlines the development roadmap for Oblien Domains, an enterprise
 - [ ] Affiliate program
 
 ### API Platform
-- [ ] GraphQL API with Apollo Server
 - [ ] REST API with OpenAPI specification
 - [ ] API authentication and authorization
 - [ ] Rate limiting and security
 - [ ] API documentation with Swagger
 
-## Phase 4: Enterprise Features (Months 9-12)
+## Phase 4: Enterprise Features
 
 ### Bulk Operations
 - [ ] Bulk domain search with filtering
@@ -115,7 +110,7 @@ This document outlines the development roadmap for Oblien Domains, an enterprise
 - [ ] SSO integration
 - [ ] Team notifications and alerts
 
-## Phase 5: Ecosystem Expansion (Beyond Year 1)
+## Phase 5: Ecosystem Expansion
 
 ### Developer Platform
 - [ ] Webhook integrations for domain events
@@ -184,4 +179,4 @@ This document outlines the development roadmap for Oblien Domains, an enterprise
 - **Feature Adoption**: Usage of advanced features
 - **Provider Coverage**: Number of integrated DNS providers
 - **API Usage**: Number of API calls and third-party integrations
-- **Community Engagement**: Number of contributors and community activity 
+- **Community Engagement**: Number of contributors and community activity
