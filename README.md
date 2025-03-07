@@ -1,7 +1,7 @@
 # Oblien Domains
 
 <p align="center">
-  <img src="docs/assets/logo-placeholder.png" alt="Oblien Domains Logo" width="200"/>
+  <img src="docs/assets/logo.jpg" alt="Oblien Domains Logo" width="200"/>
 </p>
 
 <p align="center">
