@@ -12,9 +12,7 @@ This document outlines the development roadmap for Oblien Domains, an enterprise
 - [ ] Development environment with Docker Compose
 
 ### Core Architecture
-- [ ] Microservices architecture design
-- [ ] Event-driven communication with Kafka
-- [ ] Authentication system with Keycloak
+- [ ] monolith architecture design
 - [ ] OpenSRS integration architecture
 - [ ] Database schema design with custom SQL
 
