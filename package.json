@@ -3,11 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Open Source Domain Register & Manager with the lowest cost domains directly from DNS providers",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "packageManager": "npm@8.5.0",
+  "packageManager": "npm@10.9.2",
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
